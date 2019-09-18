@@ -1,0 +1,96 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(105, 130, 218);
+    }
+    .nav__link{
+        margin: 1em;
+        font-size: 1em;
+        text-decoration: none;
+        color: white;
+    }
+    .intro{
+        background-color: rgb(105, 130, 218);
+        color: white;
+        letter-spacing: 0.1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .intro__img{
+        max-width: 100%;
+    }
+    .intro__group{
+        margin: 1em;
+        text-align: center;
+        padding: 1em;
+    }
+    .intro__btn--shop{
+        background-color: white;
+        color: red;
+        padding: 0.5em;
+        font-weight: 600;
+        border: solid white;
+    }
+    .intro__btn--read{
+        background-color:  rgb(57, 96, 240);
+        color: white;
+        padding: 0.5em;
+        font-weight: 600;
+        border: solid rgb(57, 96, 240);
+    }
+    .panel{
+        border: solid;
+        padding: 5%;
+    }
+    .panel__content{
+        border: solid;
+        padding: 5%;
+        margin: 5%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .panel__icon{
+        max-width: 25px;
+        border: solid;
+    }
+    .grid__row, .content-box, .container, .container__group {
+        border: solid;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        margin: 5%;
+    }
+    .banner{
+        border: solid;
+        padding: 5%;
+        text-align: center; 
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
